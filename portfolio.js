@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   const roles = [
     "Full Stack Developer ",
-    "MERN Stack Engineer ",
-    "Creator of JourniStay "
+    "MERN Stack Developer ",
   ];
 
   let i = 0;
