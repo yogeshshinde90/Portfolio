@@ -826,6 +826,120 @@ footer {
   .project-card {
     width: 90%; 
   }
+
+  .project-image {
+  width: 180px;
+  height: 100px;
+  margin-left: 5px;
+}
+
+}
+
+@media (max-width: 450px) {
+  .project-flex-wrapper {
+    flex-direction: column; 
+    align-items: center;     
+  }
+
+  .project-card {
+    width: 80%; 
+  }
+}
+
+@media (max-width: 450px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.1rem;
+    font-weight: 600;
+  }
+
+  nav{
+    height:14% ;
+    width:350px
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: auto;
+    padding: 5rem 1rem 3rem;
+    margin-top: 25px;
+  }
+
+  .pre{
+    display: block;
+    color: #58a6ff;
+  }
+
+  .hero p{
+    margin-top: 2rem;
+  }
+
+  
+   
+  #typewriter {
+    
+    display: none;
+   
+    
+  }
+
+  #latest-projects{
+    margin-top: 100px;
+  }
+
+  
+  
+
+
+  
+
+
+
+  .hero-text {
+    margin: 0;
+    text-align: center;
+  }
+
+  .hero-text h2,
+  .hero-text .intro,
+  #typewriter,
+  .role-desc {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .social-icons1 {
+    margin: 1rem auto;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .btn {
+    margin-right: 0;
+  }
+
+  .hero-image {
+    margin: 2rem auto 0;
+  }
+
+  .photo-circle {
+    width: 200px;
+    height: 220px;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .prefix{
+    position: fixed;
+    left: 0;
+  }
 }
 
 
